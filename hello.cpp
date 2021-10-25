@@ -4,8 +4,10 @@ using namespace std;
 
 int main(int argv, char* argc[]){
 
-	cout<<"HELLO WORLD"<<endl;
-
+	for(int i=1; i<argv; i++){
+		cout<<argc[i]<<" ";
+	}
+	cout<<endl;
 	return 0;
 	
 }
